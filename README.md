@@ -1,6 +1,16 @@
-﻿# 🎟️ Eventix THEATRE - Event Management System
+# 🎟️ Eventix THEATRE - Event Management System
 
 A professional, full-featured Event Management and Ticketing System built with **Laravel 13** and **FilamentPHP**. This application allows organizers to create events, manage dynamic ticket quotas, seamlessly process payments using the **Midtrans Payment Gateway**, and features an integrated Audit Log system.
+
+---
+
+## 📸 Preview Tampilan Aplikasi (HD)
+
+<p align="center">
+  <img src="screenshots/events-preview.png" alt="Eventix THEATRE Preview" width="920">
+</p>
+
+---
 
 ## ✨ Features
 
