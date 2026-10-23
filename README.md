@@ -32,6 +32,7 @@ A professional, full-featured Event Management and Ticketing System built with *
 - **E-Ticket Generation:** Automatically generates a downloadable PDF E-Ticket with a unique **QR Code** upon successful payment.
 
 ### 🛡️ Security
+- **Admin Route Obfuscation & Panel Hardening:** The Filament administrative panel path is not exposed on predictable routes (`/admin`). It is dynamically configured via `ADMIN_PREFIX` in `.env` (default: `eventix-portal-mgmt`). Accessing `/admin` or `/admin/login` returns **HTTP 404 Not Found**, concealing the management suite from malicious bot scans and brute-force attempts.
 - **IDOR Protection:** Strict authorization ensuring users can only download and view their own E-Tickets.
 - **Webhook Security:** Configured CSRF exceptions for secure Midtrans server-to-server callbacks.
 - **Overbooking Prevention:** Transaction-level locks and validation to prevent users and admins from exceeding ticket availability.

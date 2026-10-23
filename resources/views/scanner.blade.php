@@ -19,7 +19,7 @@
             
             <div id="result" class="mt-4 p-4 text-center rounded hidden"></div>
         </div>
-        <a href="/admin" class="mt-6 text-indigo-600 hover:underline">Back to Dashboard</a>
+        <a href="/{{ env('ADMIN_PREFIX', 'eventix-portal-mgmt') }}" class="mt-6 text-indigo-600 hover:underline">Back to Dashboard</a>
     </div>
 
     <!-- Include the HTML5 QR Code Scanner Library -->
